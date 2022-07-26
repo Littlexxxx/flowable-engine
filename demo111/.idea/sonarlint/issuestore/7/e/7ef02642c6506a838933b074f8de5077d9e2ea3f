@@ -1,0 +1,18 @@
+
+K
+java:S2446E"0"notify" may not wake up the appropriate thread.(«ß£òúÿÿÿÿ
+K
+java:S2446S"0"notify" may not wake up the appropriate thread.(¼¶Îúÿÿÿÿ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(İßÅŒıÿÿÿÿ
+Q
+java:S1161¡":Add the "@Override" annotation above this method signature(“–ış
+n
+java:S3776°"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ƒ¾“¬ÿÿÿÿÿ
+u
+java:S2142Ö"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+G
+java:S1659½"+Declare "executionTime" on a separate line.(İÃùøÿÿÿÿ
+?	java:S108Ö")Either remove or fill this block of code.(ä ¹€
+J
+java:S1121Æ".Extract the assignment out of this expression.(Ü¥ùøÿÿÿÿ
+t	java:S135±"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ

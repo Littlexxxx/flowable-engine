@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.zswltech.preserver.core.event.mysql.orm.DomainEventMapper">
+    <resultMap id="BaseResultMap" type="cn.zswltech.preserver.core.event.mysql.orm.DomainEventDO">
+        <result property="id" column="id" />
+        <result property="uuid" column="uuid" />
+        <result property="eventType" column="event_type" />
+        <result property="entityUuid" column="entity_uuid" />
+        <result property="occurredTime" column="occurred_time" />
+        <result property="eventType" column="event_type" />
+        <result property="entity" column="entity" />
+        <result property="eventData" column="event_data" />
+    </resultMap>
+
+    <sql id="queryColumns">
+        `id`,uuid,event_type,entity,event_data,entity_uuid,occurred_time
+    </sql>
+
+    <select id="query" resultMap="BaseResultMap"
+            parameterType="java.lang.Long">
+        select
+        <include refid="queryColumns"></include>
+        from tiangong_domain_event
+        where id > #{startId}
+        order by id desc
+    </select>
+
+
+    <select id="minIdAfterGmtModify" parameterType="java.util.Date" resultType="java.lang.Long">
+        select case when a.minId is null then b.maxId else a.minId end from
+        (
+            select min(id) as minId
+         from tiangong_domain_event
+         where gmt_modify &gt;= #{gmtModify}
+        ) a,
+        (
+            select max(id) as maxId
+         from tiangong_domain_event
+        ) b
+    </select>
+</mapper>

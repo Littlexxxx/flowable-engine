@@ -1,0 +1,16 @@
+
+O
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¯¸É
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«Úêšşÿÿÿÿ
+8
+java:S5542!"#Use secure mode and padding scheme.(ûÖ¿G
+T
+java:S4719$"9Replace charset name argument with StandardCharsets.UTF_8(­Öº§øÿÿÿÿ
+M	java:S106%"9Replace this use of System.out or System.err by a logger.(İ´Óf
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(‚êşç
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(±“‰¿üÿÿÿÿ
+^
+java:S1128"IRemove this unused import 'org.bouncycastle.util.test.FixedSecureRandom'.(ú·»o
+C
+java:S1128
+"-Remove this unused import 'java.util.Base64'.(ëŠ»Õ

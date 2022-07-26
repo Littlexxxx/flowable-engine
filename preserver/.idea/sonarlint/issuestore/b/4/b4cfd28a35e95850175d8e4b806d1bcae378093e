@@ -1,0 +1,7 @@
+
+W
+java:S3457g"AFormat specifiers should be used instead of string concatenation.(ù´ùê
+G
+java:S1602o",Remove useless curly braces around statement(ª´“†øÿÿÿÿ
+r
+java:S2629g"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ù´ùê

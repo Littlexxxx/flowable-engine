@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.zswltech.preserver.infrastructure.mapper.DataSourceMapper">
+  <resultMap id="BaseResultMap" type="cn.zswltech.preserver.infrastructure.dataobject.DataSourceDO">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="desc" jdbcType="VARCHAR" property="desc" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="org" jdbcType="VARCHAR" property="org" />
+    <result column="model" jdbcType="VARCHAR" property="model" />
+    <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="gmt_update" jdbcType="TIMESTAMP" property="gmtUpdate" />
+    <result column="updated_by" jdbcType="VARCHAR" property="updatedBy" />
+    <result column="config" jdbcType="LONGVARCHAR" property="config" />
+    <result column="meta_data" jdbcType="LONGVARCHAR" property="metaData" />
+    <result column="rule_id" jdbcType="INTEGER" property="ruleId" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,9 @@
+
+U
+java:S1118	":Add a private constructor to hide the implicit public one.(óµ¹âúÿÿÿÿ
+I
+java:S1068".Remove this unused "dateFormat" private field.(ªŞñØÿÿÿÿÿ
+P
+java:S1068"5Remove this unused "yyyyMMddHHmmssSSS" private field.(Ùİ±Ûøÿÿÿÿ
+B
+java:S1068",Remove this unused "yyyyMMdd" private field.(çöŞ¥

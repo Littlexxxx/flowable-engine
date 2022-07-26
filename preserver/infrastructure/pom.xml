@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>preserver</artifactId>
+        <groupId>cn.zswltech.preserver</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <artifactId>infrastructure</artifactId>
+
+    <properties>
+        <mapstruct.version>1.2.0.Final</mapstruct.version>
+        <preserver.version>1.0.0-SNAPSHOT</preserver.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <artifactId>field-control</artifactId>
+            <groupId>cn.zswltech.preserver</groupId>
+            <version>${preserver.version}</version>
+        </dependency>
+
+        <dependency>
+            <artifactId>service-config</artifactId>
+            <groupId>cn.zswltech.preserver</groupId>
+            <version>${preserver.version}</version>
+        </dependency>
+
+        <dependency>
+            <artifactId>middle-data</artifactId>
+            <groupId>cn.zswltech.preserver</groupId>
+            <version>${preserver.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>${mapstruct.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>${mapstruct.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>cn.zswltech.preserver</groupId>
+            <artifactId>data-audit</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.zswltech.preserver</groupId>
+            <artifactId>data-source</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

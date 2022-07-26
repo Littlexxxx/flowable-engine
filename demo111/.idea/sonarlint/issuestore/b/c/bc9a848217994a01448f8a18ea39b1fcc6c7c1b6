@@ -1,0 +1,17 @@
+
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê¤õÿÿÿÿÿ
+A
+java:S1172"+Remove this unused method parameter "type".(Ÿ¿ñ
+F
+java:S1172"0Remove this unused method parameter "classType".(Ñ–Û
+[
+java:S1172"@Remove these unused method parameters "extensionClasses", "dir".(ê¤õÿÿÿÿÿ
+A
+java:S1068"+Remove this unused "LOADERS" private field.(¼©÷
+>
+java:S1068"(Remove this unused "type" private field.(¶ŒÛÚ
+Q
+java:S1144"6Remove this unused private "CryptoLoader" constructor.(“ÎûÉıÿÿÿÿ
+H
+java:S1144"-Remove this unused private "loadFile" method.(ê¤õÿÿÿÿÿ
